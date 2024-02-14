@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.nav-Bar {
+  background-color: #333333;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-Bar.active {
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website-logo-size {
+  height: 60px;
+  width: 60px;
+}
+.options-Container {
+  display: flex;
+  align-items: center;
+}
+.list-Item {
+  list-style-type: none;
+  font-size: 22px;
+  color: #ffffff;
+  padding-right: 15px;
+}
+
+.list-Item.active {
+  list-style-type: none;
+  font-size: 22px;
+  color: #1e293b;
+  padding-right: 15px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0;
+}
+.link-item {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-item.active {
+  text-decoration: none;
+  color: #171f46;
+}

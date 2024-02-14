@@ -1,0 +1,40 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.about-Container {
+  background-color: #000000;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-Container.active {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-size {
+  height: 200px;
+  width: 200px;
+}
+.about-heading {
+  color: #ffffff;
+}
+
+.about-heading :active {
+  color: #1e293b;
+}
+
+.discription {
+  color: #ffffff;
+}
+.discription.active {
+  color: #1e293b;
+}
